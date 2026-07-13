@@ -2,18 +2,18 @@
 
 A Python-based networking project demonstrating core distributed systems concepts: node discovery via multicast, connection maintenance via UDP heartbeats, and decentralized communication through a Peer-to-Peer (P2P) network.
 
-## 🚀 Features
+## Features
 
 *   **UDP Heartbeat:** Continuous node status monitoring using lightweight UDP ping/pong messages to detect active vs. dead peers.
 *   **Multicast Discovery:** Dynamic local network peer discovery using IP multicast, removing the need for hardcoded IP addresses.
 *   **Decentralized P2P (`p2p.py`):** Direct peer-to-peer data sharing and messaging architecture with no central server.
 
-## 📦 Prerequisites
+## Prerequisites
 
 *   Python 3.8 or higher
 *   A local network that supports UDP multicast traffic (or testing via `localhost`)
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 1. Clone the repository to your local machine:
    ```bash
@@ -27,7 +27,7 @@ A Python-based networking project demonstrating core distributed systems concept
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
    ```
 
-## 🖥️ Usage Guide
+## Usage Guide
 
 ### 1. Running the P2P Network
 Start multiple instances of `p2p.py` in separate terminal windows to simulate different nodes.
@@ -52,7 +52,7 @@ Launch the heartbeat listener to keep track of active node uptimes.
 python heartbeat_monitor.py
 ```
 
-## 🗺️ Project Structure
+##  Project Structure
 
 ```text
 ├── p2p.py                # Main peer-to-peer networking logic and message handling
